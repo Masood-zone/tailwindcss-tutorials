@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS tutorials</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="font-mono">
+    <!-- Navbar -->
+    <nav class="flex border items-center justify-between px-4 py-4">
+      <!-- Logo -->
+      <h1 class="text-3xl font-bold">Logo</h1>
+      <!-- Links -->
+      <ul class="flex gap-5">
+        <li class="text-lg hover:underline hover:cursor-pointer">Home</li>
+        <li class="text-lg hover:underline hover:cursor-pointer">About Us</li>
+        <li class="text-lg hover:underline hover:cursor-pointer">Contact Us</li>
+      </ul>
+      <!-- User Actions -->
+      <div class="flex items-center gap-4">
+        <button
+          class="text-lg bg-blue-500 text-white px-5 py-2 rounded-md hover:bg-blue-600"
+        >
+          Login
+        </button>
+        <button
+          class="text-lg bg-black text-white px-5 py-2 rounded-md hover:bg-gray-800"
+        >
+          Signup
+        </button>
+      </div>
+    </nav>
+    <!-- Banner -->
+    <section class="w-full h-[550px] bg-banner">
+      <!-- Text -->
+      <div
+        class="w-1/2 m-auto h-full flex flex-col items-center justify-center gap-5"
+      >
+        <h1 class="text-5xl text-white font-bold">Sunny Side Academy</h1>
+        <p class="text-lg text-white text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sint
+          sit asperiores ipsum culpa optio dolorem quasi corporis similique
+          repellendus. Cumque in consequatur iste esse odit illum porro saepe
+          rerum?
+        </p>
+        <button class="bg-black text-white py-3 px-8 text-lg rounded-lg">
+          Learn More
+        </button>
+      </div>
+    </section>
+  </body>
+</html>
